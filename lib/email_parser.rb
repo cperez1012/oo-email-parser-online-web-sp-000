@@ -5,7 +5,6 @@ class EmailAddressParser
   end
   def parse
     emails_array = emails.split(",")
-    emails_array.delete(" ")
     emails_array.uniq
   end
 end
